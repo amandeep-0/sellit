@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity
 
         signUpButton= (Button)findViewById(R.id.main_signup_btn);
         loginButton=(Button)findViewById(R.id.main_login_btn);
+        loadingBar = new ProgressDialog(this);
 
         Paper.init(this);
 
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
 
                 Intent intent= new Intent(MainActivity.this,LoginActivity.class);
+
                 startActivity(intent);
             }
         });

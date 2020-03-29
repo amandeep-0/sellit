@@ -64,7 +64,7 @@ public class LoginActivity extends AppCompatActivity
             }
         });
 
-     /*  ForgetPasswordLink.setOnClickListener(new View.OnClickListener() {
+      ForgetPasswordLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view)
             {
@@ -72,7 +72,7 @@ public class LoginActivity extends AppCompatActivity
                 intent.putExtra("check", "login");
                 startActivity(intent);
             }
-        });*/
+        });
 
         AdminLink.setOnClickListener(new View.OnClickListener() {
             @Override
