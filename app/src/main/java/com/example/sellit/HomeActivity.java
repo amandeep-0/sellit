@@ -109,7 +109,7 @@ implements NavigationView.OnNavigationItemSelectedListener {
                     {
                         holder.txtProductName.setText(model.getPname());
                         holder.txtProductDescription.setText(model.getDescription());
-                        holder.txtProductPrice.setText("Price = " + model.getPrice() + "$");
+                        holder.txtProductPrice.setText("Rs. " + "Price = " + model.getPrice());
                         Picasso.get().load(model.getImage()).into(holder.imageView);
 
 
